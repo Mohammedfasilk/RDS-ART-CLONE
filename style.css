@@ -1,0 +1,240 @@
+header{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+.logo{
+    height: 50px;
+    width: 100px;
+}
+.nav-link-grp a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+.dropdown-menu a{
+    color: black;
+}
+.nav-link-grp .nav-a-bar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-right-side{
+    display: flex;
+    align-items: center;
+}
+.nav-right-side .nav-icons{
+    display: flex;
+    list-style: none;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+}
+.nav-icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons{
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+}
+.btn-link{
+    padding: 15px 25px;
+    background: linear-gradient(90deg,rgb(222, 5, 222),red,rgb(224, 60, 60));
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.home-section{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/bU2f06yok7boyInwJpZbcJSrISS1Mrfnfa1CPKNP.jpg");
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 4rem 0;
+}
+.home-wrap{
+    margin-top: 6rem;
+}
+.banner,.home-title-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.home-title-banner{
+    padding: 3rem 2rem 3rem 2rem;
+}
+.heading{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.sub-head{
+    font-size: 22px;
+    text-align: center;
+    max-width: 45rem;
+}
+.art{
+    stroke-width: 1px;
+-webkit-text-stroke-color: white;
+-webkit-text-stroke-width: 1px;
+color: transparent;
+font-family: sans-serif;
+}
+.banner img{
+   min-height: 120px;
+   min-width: 200px;
+}
+
+.map-section{
+    width: 100%;
+    height: 25rem;
+    background: url("https://www.rdsartgroup.sk/storage/blocks/LGxkzN4q6gfQ37tKWNwq2wl4Aw5IcGju1hb7NpF5.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-home{
+    min-width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    overflow: hidden;
+   
+    
+}
+.inner{
+    width: 100%;
+    height: 100%;
+    
+}
+.cards-1{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/intro-card-rds-32.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card1-inner{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/intro-rds-logo-15.svg");
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    
+}
+.cards-2{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/intro-card-2-85.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.card2-inner{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/logo-souljam-50.png");
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.cards-3{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/intro-card-3-28.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3-inner{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/intro-wave-logo-64.svg");
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.cards-4{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/intro-card-4-95.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card4-inner{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/intro-musical-academy-logo-61.svg");
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.cards-5{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/intro-card-5-32.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card5-inner{
+    background: url("https://www.rdsartgroup.sk/storage/blocks/intro-sdt-logo-11.png");
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.grid-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    padding: 5rem 0 5rem 0;
+    background: radial-gradient(26.87% 116.08% at 67.58% 63.2%, #383F4B 0%, #23272F 54.9%, #1A1D23 100%);
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+}
+.footer-list p{
+    color: rgb(111, 110, 110);
+    font-size: large;
+    font-weight: bolder;
+    margin: 0;
+}
+.footer-list a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.lists{
+    display: flex;
+}
+
+
+@media screen and (max-width:750px) {
+    .heading{
+        font-size: 35px;
+    }
+    .sub-head{
+        font-size: 16px;
+    }
+    .banner img{
+        height: 150px;
+        width: 50px;
+    }
+}
+@media screen and (min-width:750px) {
+    .link-grp{
+        width: 40rem;
+    }
+}
